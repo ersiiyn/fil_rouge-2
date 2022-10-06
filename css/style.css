@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.couleur{
+    background-color: #8A0000;
+}
+
+.bouton-inscription{
+    background-color: #8A0000;
+}
+
+
+/* ...........................................  SCROLLBAR ..................................................*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #3a3a3a;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3a3a3a;
+    border-radius: 20px;
+}
+
+/* ...........................................  TRAIT ..................................................*/
+
+
+.box-trait{
+    /* border: solid black 1px; */
+    width: 99.6vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.trait{
+    /* border: solid red 1px; */
+    border-bottom: solid 1px rgb(189, 189, 189);
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.span-trait{
+    margin-bottom: 0.5%;
+}
+
+.span-trait a{
+    margin-bottom: 0.5%;
+    text-decoration: none;
+    color: black;
+}
+
+.span-trait a:hover{
+    color: #8A0000;
+}
+
+.bi-house{
+    font-size: 20px;
+}
+
+/* ...........................................  INDEX ..................................................*/
+/* ...........................................  NAVBAR ..................................................*/
+
+.navbar{
+    background-color: white;
+    opacity: .9;
+    z-index: 2;
+    box-shadow: 5px 5px 5px 3px rgba(204, 204, 204, 0.2);
+}
+
+.navbar a:hover{
+    color: #8A0000;
+}
+
+.maras-titre{
+    letter-spacing: -4px;
+    color: #8A0000;
+}
+
+
+/* ...........................................  FOOTER ..................................................*/
+
+.footer-contact{
+    margin-top: 5%;
+    width: 99.6vw;
+    height: 26vh;
+    /* border: solid rgb(0, 0, 0) 1px; */
+    display: flex;
+}
+
+/* NOUS SUIVRE */
+
+.nous-suivre{
+    /* border: solid rgb(81, 0, 255) 1px; */
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.box-titre-nous-suivre{
+    /* border: solid red 1px; */
+    width: 81%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-nous-suivre{
+    font-size: 32px;
+    color: #8A0000;
+}
+
+.box-texte-nous-suivre{
+    /* border: solid blue 1px; */
+    width: 81%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte-nous-suivre{
+    font-size: 20px;
+}
+
+
+/* LOGO  */
+
+.logo-footer{
+    /* border: solid green 1px; */
+    width: 81%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.facebook{
+    /* border: solid green 1px; */
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-facebook{
+    font-size: 40px;
+    color: black;
+}
+
+.bi-facebook:hover{
+    color:#8A0000;
+}
+
+.insta{
+    /* border: solid red 1px; */
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-instagram{
+    font-size: 40px;
+    color: black;
+}
+
+.bi-instagram:hover{
+    color: #8A0000;
+}
+
+/* NOUS CONTACTER */
+
+.box-nous-contacter{
+    /* border: solid black 3px; */
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-titre-nous-contacter{
+    /* border: solid blue 1px; */
+    width: 81%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-nous-contacter{
+    font-size: 32px;
+    color: #8A0000;
+}
+
+.box-texte-nous-contacter{
+    /* border: solid rgb(255, 0, 0) 1px; */
+    width: 81%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte-nous-contacter{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+/* MAPS */
+
+.maps{
+    /* border: solid rgb(255, 0, 43) 1px; */
+    height: 100%;
+    width: 33.3%;
+}
+
+.maps iframe{
+    width: 81.5%;
+    height: 99%;
+}
+
+.foot{
+    background-color: #8A0000;
+}
+
+
+                                                                                                                                
+/* ...........................................  ACCUEIL ..................................................*/
+
+/* ...........................................  LIEUX ..................................................*/
+
+.box-lieux{
+    /* border: solid blueviolet 1px; */
+    width: 99.6vw;
+    height: 100vh;
+    display: flex;
+}
+
+.box-photo{
+    /* border: solid yellowgreen 1px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    /* border: solid red 1px; */
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+
+
+/* ...........................................  FASTCASUALTURK ..................................................*/
+
+
+.box-fastcasual{
+    /* border: solid black 1px; */
+    width: 99.6vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.box-texte-gauche{
+    width: 25%;
+    height: 80%;
+    /* border: solid green 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fastcasual-titre{
+    color: #8A0000;
+    font-size: 49px;
+    font-family: 'Artifika', serif;
+    filter: drop-shadow(8px 8px 4px rgb(192, 192, 192));
+}
+
+
+.fastcasual-texte{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Côter image */
+
+.box-image-droite{
+    /* border: solid blueviolet 1px; */
+    width: 35%;
+    height: 100%;
+}
+
+/* ...........................................  BREAKFAST ..................................................*/
+
+.box-breakfast{
+    /* border: solid black 1px; */
+    margin-top: 5%;
+    width: 99.6vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXTE */
+
+.box-texte-droite{ 
+    /* border: solid green 1px; */
+    width: 37%;
+    height: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.texte-droite{
+    /* border: solid rgb(4, 255, 255) 1px; */
+    width: 100%;
+    height: 80%;
+}
+
+.passione-titre{
+    color: #8A0000;
+    font-size: 49px;
+    text-transform: uppercase;
+    filter: drop-shadow(8px 8px 4px rgb(165, 165, 165));
+}
+
+.passione-texte{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* IMAGE */
+
+.box-image-gauche{
+    /* border: solid blueviolet 1px; */
+    width: 51%;
+    height: 85%;
+    margin-top: 2%;
+}
+
+/* ...........................................  3 CATEGORIE ..................................................*/
+
+.box-3categorie{ /* TOUTE LA BOX */
+    /* border: solid black 1px; */
+    width: 99.6vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+/* PARTIE TEXTE BAS  */
+.box-titre-3categorie{
+    /* border: blue solid 1px; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-3categorie{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.box-texte-3categorie{
+    /* border: red solid 1px; */
+    width: 60%;
+    height: 18%;
+    text-align: center;
+}
+
+.texte-3categorie{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.box-lien-3categorie{
+    /* border: green solid 1px; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lien-3categorie{
+    text-decoration: none;
+    color: #8A0000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-lien-3categorie a:hover{
+    color: #b61818;
+}
+
+
+/* ENTREE */
+.box-entree{
+    /* border: solid red 1px; */
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-texte-entree{
+    /* border: black solid 1px; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PLAT */
+.box-plat{
+    /* border: solid green 1px; */
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-plat{
+    /* border: rgb(235, 235, 235) solid 1px; */
+    /* border-radius: 100%; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-texte-plat{
+    /* border: blue solid 1px; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* DESSERT */
+.box-dessert{
+    /* border: solid blue 1px; */
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-texte-dessert{
+    /* border: blue solid 1px; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ...........................................  TRAITEUR ..................................................*/
+.box-traiteur{
+    /* border: solid rgb(0, 0, 0) 4px; */
+    margin-top: 5%;
+    width: 99.6vw;
+    height: 80vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.box-gauche-traiteur{
+    /* border: solid blue 1px; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.box-titre-traiteur{
+    /* border: solid blue 1px; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+
+.titre-traiteur{
+    color: #8A0000;
+}
+
+.box-texte-traiteur{
+    /* border: solid green 1px; */
+    width: 70%;
+    height: 33.33%;
+    text-align: end;
+    margin-bottom: 8%;
+}
+
+.texte-traiteur{
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.box-bouton-traiteur{
+    /* border: solid green 1px; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.box-image-traiteur{
+    /* border: solid red 1px; */
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+                                                                                                                                
+/* ...........................................  LA CARTE ..................................................*/
+
+.box-1-carte{
+    /* border: solid rgb(0, 255, 64); */
+    width: 99.6vw;
+    height: 25vh;
+}
+
+.box-titre-carte{
+    /* border: solid blue; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.titre-carte{
+    /* border: solid red; */
+    width: 22%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mado-carte{
+    font-size: 35px;
+    color: #8A0000;
+}
+
+.texte-carte{
+    /* border: solid black 2px; */
+    border-right: black 2px;
+    border-left: black 2px;
+    background-color: rgb(250, 250, 250);
+    background-repeat: repeat;
+    width: 93%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.texte-entre{
+    margin-top: 0.9%;
+    font-size: 45px;
+    color: black;
+}
+
+/* ...........................................  LES CATEGORIES ..................................................*/
+
+.grande-box-carte{
+    /* border: solid black 1px; */
+    margin-left: 3%;
+    width: 94vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.box_sous_cat{
+    /* border: solid 1px blue; */
+    width: 99.6vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.nom_sous_cat{
+    /* border: solid 1px red; */
+    width: 80%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.box-produit{
+    /* border: solid black 1px; */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-produit{
+    /* border: solid red 1px; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texte-produit{
+    /* border: solid blue 1px; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nom_produit, .description{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* ...........................................  Déjeuner ..................................................*/
+
+.box-carte-dejeuner{
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+
+                                                                                                                                
+/* ...........................................  CONNEXION ..................................................*/
+
+.box-connexion{
+    /* border: solid black 1px; */
+    margin-top: 2%;
+    width: 99.6vw;
+    height: 65vh;
+    display: flex;
+}
+
+.box-container{
+    width: 35%;
+    height: 100%;
+}
+
+.image-connexion{
+    /* border: solid black 1px; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+
+                                                                                                                                
+/* ...........................................  DEVIS TRAITEUR..................................................*/
+
+.texte-devis{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    color: #3a3a3a;
+}
